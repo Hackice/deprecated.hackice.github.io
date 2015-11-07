@@ -16,10 +16,15 @@ a:hover, a:visited, a:link{
     color: #000000;
     text-decoration: none;
 }
-
-body{
-    background: url("../images/El Capitan Desktop.jpg");
+body {
+    background: url("../images/El Capitan Desktop_Landscape.jpg");
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
     background-size: cover;
+    -webkit-background-size: cover;/* 兼容Webkit内核浏览器如Chrome和Safari */
+    -o-background-size: cover;/* 兼容Opera */
+    zoom: 1;
 }
 
 /*头部*/
@@ -84,7 +89,7 @@ body{
 #footer .dock{
     background:url("../images/dock_bg.png");
     height: 100%;
-    width: 35%;
+    width: 50%;
     margin: 0 auto;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
