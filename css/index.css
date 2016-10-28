@@ -127,3 +127,5 @@ body {
     /* 放大1.5倍 */
     transform:scale(1.5);
 }
+
+#footer .warmup {border-radius:10px}
